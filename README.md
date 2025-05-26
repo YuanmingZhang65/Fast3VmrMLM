@@ -1,23 +1,41 @@
 A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs).
 
 Within the Linux system, the Fast3VmrMLM software can be installed by the following four steps:
+
 1) To download and install Anaconda.
+
 2) To create a new conda environment named Fast3VmrMLM by the following code:
+
    conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
+   
 3) To install the dependency packages.
+   
   •	Install mamba for fast installation by:
-    conda install -c conda-forge mamba
+  
+      conda install -c conda-forge mamba
+      
   •	Install dependency packages by following codes in Linux environment or by install.packages in R environment:
-    mamba install -c conda-forge r-Rcpp r-RcppArmadillo r-RcppParallel
-    mamba install -c conda-forge r-data.table r-MASS r-dplyr r-openxlsx
-    mamba install -c conda-forge r-BH r-SKAT r-lars r-BEDMatrix
-    install.packages(“KScorrect”)
+  
+      mamba install -c conda-forge r-Rcpp r-RcppArmadillo r-RcppParallel
+    
+      mamba install -c conda-forge r-data.table r-MASS r-dplyr r-openxlsx
+      
+      mamba install -c conda-forge r-BH r-SKAT r-lars r-BEDMatrix
+      
+      install.packages(“KScorrect”)
+      
   •	Install dependency packages “boost” by the following code in Linux environment:
-    conda install -c conda-forge boost
+  
+      conda install -c conda-forge boost
+      
 4) To decompress Fast3VmrMLM.zip with the following bash code and install it with R code by:
+   
    unzip '/user/Fast3VmrMLM_Linux.zip' -d '/user/'
+
    R
+
    install.packages("/home/user/Fast3VmrMLM", repos = NULL)
+
 
 The above installation may take some time, please be patient and wait.
 
