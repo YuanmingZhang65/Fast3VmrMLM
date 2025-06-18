@@ -5,10 +5,12 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
 1) To download and install Anaconda at https://repo.anaconda.com/archive/, in which the recommended installer file is Anaconda3-2021.05-Linux-x86_64.sh.
 
 2) To create a new conda environment named Fast3VmrMLM by the following code:
+
    •
+   
        conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
    
-3) To install the dependency packages.
+4) To install the dependency packages.
    
   •	Install mamba for fast installation by:
   
