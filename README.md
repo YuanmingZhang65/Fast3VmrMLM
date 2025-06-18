@@ -10,13 +10,13 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
    
        conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
    
-4) To install the dependency packages.
+3) To install the dependency packages.
    
   •	Install mamba for fast installation by:
   
       conda install -c conda-forge mamba
       
-  •	Install dependency packages by following codes in Linux environment (or by install.packages in R environment):
+  •	Install dependency packages by following codes in Linux environment (or by install.packages in R environment; the below “mamba” can be replaced by “conda” if it doesn’t work):
   
       mamba install -c conda-forge r-Rcpp
       
@@ -31,9 +31,8 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
       mamba install -c conda-forge r-openxlsx
       
       mamba install -c conda-forge r-BH  
-      
-      (The above “mamba” can be replaced by “conda” if it doesn’t work.)
-      
+     
+     
   •	Install dependency packages “boost” by the following code in Linux environment:
   
       conda install -c conda-forge boost
