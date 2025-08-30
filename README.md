@@ -1,4 +1,4 @@
-A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs). This software was updated on July 30 2025.
+A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs). This software was updated on Aug 30 2025.
 
 Within the Linux system, the Fast3VmrMLM software can be installed by the following four steps:
 
