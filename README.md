@@ -1,4 +1,6 @@
-A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs). This software was updated on Nov 24 2025. When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01.
+A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs). This software was updated on Nov 24 2025. 
+
+When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01.
 
 Within the Linux system, the Fast3VmrMLM software can be installed by the following four steps:
 
