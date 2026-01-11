@@ -1,4 +1,4 @@
-A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs). This software was updated on Nov 25 2025. 
+<img width="1496" height="694" alt="image" src="https://github.com/user-attachments/assets/942b502e-909c-4a93-89b2-d810a1f94442" />A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs). This software was updated on Nov 25 2025. 
 
 When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01.
 
@@ -8,9 +8,7 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
 
 2) To create a new conda environment named Fast3VmrMLM by the following code:
 
-   •
-   
-       conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
+   •  conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
    
 3) To install the dependency packages.
    
@@ -41,16 +39,26 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
       
 4) To decompress Fast3VmrMLM.zip with the following bash code and install it with R code by:
 
- •
- 
-      unzip '/user/Fast3VmrMLM_Linux.zip' -d '/user/'
+ •    unzip '/user/Fast3VmrMLM_Linux.zip' -d '/user/'
       
       R
       
       install.packages("/home/user/Fast3VmrMLM", repos = NULL)
 
 
-The above installation may take some time, please be patient and wait.
+The above installation may take some time, please be patient and wait. The above codes may also be summarized as the below eight commands:
+
+ conda create -n "Fast3VmrMLM" r-essentials r-base=4.3   # Created a new conda environment in Linux #
+ conda activate Fast3VmrMLM
+ 
+ conda install -c conda-forge mamba                      # Dependency packages installation  #
+ mamba install -c conda-forge r-Rcpp r-RcppArmadillo r-RcppParallel r-data.table r-MASS r-openxlsx r-BH boost
+ 
+ download.file("https://github.com/YuanmingZhang65/Fast3VmrMLM/archive/refs/heads/main.zip", destfile = "Fast3VmrMLM-main.zip", mode = "wb")     # Downloading Fast3VmrMLM from GitHub  #
+ 
+ unzip("Fast3VmrMLM-main.zip")                          #  Installing Fast3VmrMLM  #
+ unzip("Fast3VmrMLM-main/Fast3VmrMLM_Linux.zip")
+ install.packages("Fast3VmrMLM", repos = NULL)
 
 The Fast3VmrMLM method combines multiple statistical and computational techniques with the 3VmrMLM method to significantly optimize computation speed and memory consumption. Large-scale genetic analysis can be performed on small servers. This study develops a novel method to large-scale gene mining and breeding by design for polygenic traits, including human diseases and crop yield. Both simulation studies and real-data analysis demonstrated that 3VmrMLM and Fast3VmrMLM outperform most GWAS methods in terms of statistical power and false-positive rate.
 
@@ -59,5 +67,4 @@ Most types of genetic population can be used in the Fast3VmrMLM software for GWA
 The types of markers include SNPs, bin haplotypes, gene haplotypes, lncRNA types and structural variations.
 
 Reference
-
 Wang J, Chen Y, Shu G, Zhao M, Zheng A, Chang X, Li G, Wang Y, Zhang YM. Fast3VmrMLM: A fast algorithm that integrates genome-wide scanning with machine learning to accelerate gene mining and breeding by design for polygenic traits in large-scale GWAS datasets. Plant Communications 2025; 6(7): 101385 (https://www.cell.com/plant-communications/fulltext/S2590-3462(25)00147-6).
