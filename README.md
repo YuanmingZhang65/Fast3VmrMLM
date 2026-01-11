@@ -48,17 +48,20 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
 
 The above installation may take some time, please be patient and wait. The above codes may also be summarized as the below eight commands:
 
- conda create -n "Fast3VmrMLM" r-essentials r-base=4.3   # Created a new conda environment in Linux #
+ conda create -n "Fast3VmrMLM" r-essentials r-base=4.3       # Created a new conda environment in Linux #
  
  conda activate Fast3VmrMLM
  
- conda install -c conda-forge mamba                      # Dependency packages installation  #
+ 
+ conda install -c conda-forge mamba                          # Dependency packages installation  #
  
  mamba install -c conda-forge r-Rcpp r-RcppArmadillo r-RcppParallel r-data.table r-MASS r-openxlsx r-BH boost
  
- download.file("https://github.com/YuanmingZhang65/Fast3VmrMLM/archive/refs/heads/main.zip", destfile = "Fast3VmrMLM-main.zip", mode = "wb")     # Downloading Fast3VmrMLM from GitHub  #
  
- unzip("Fast3VmrMLM-main.zip")                          #  Installing Fast3VmrMLM  #
+ download.file("https://github.com/YuanmingZhang65/Fast3VmrMLM/archive/refs/heads/main.zip", destfile = "Fast3VmrMLM-main.zip", mode = "wb")         # Downloading Fast3VmrMLM from GitHub  #
+ 
+ 
+ unzip("Fast3VmrMLM-main.zip")                              #  Installing Fast3VmrMLM  #
  
  unzip("Fast3VmrMLM-main/Fast3VmrMLM_Linux.zip")
  
