@@ -1,4 +1,4 @@
-<img width="1496" height="694" alt="image" src="https://github.com/user-attachments/assets/942b502e-909c-4a93-89b2-d810a1f94442" />A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs). This software was updated on Nov 25 2025. 
+A fast, efficient, big-data and small memory software to detect significantly and suggested associated markers (QTNs). This software was updated on Nov 25 2025. 
 
 When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01.
 
