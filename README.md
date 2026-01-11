@@ -39,11 +39,11 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
       
 4) To decompress Fast3VmrMLM.zip with the following bash code and install it with R code by:
 
- •      unzip '/user/Fast3VmrMLM_Linux.zip' -d '/user/'
+  •   unzip '/user/Fast3VmrMLM_Linux.zip' -d '/user/'
       
-        R
+      R
       
-        install.packages("/home/user/Fast3VmrMLM", repos = NULL)
+      install.packages("/home/user/Fast3VmrMLM", repos = NULL)
 
 
 The above installation may take some time, please be patient and wait. The above codes may also be summarized as the below eight commands:
