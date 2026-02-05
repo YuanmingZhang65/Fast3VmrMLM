@@ -8,7 +8,7 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
 
 2) To create a new conda environment named Fast3VmrMLM by the following code:
 
-   •  conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
+      conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
    
 3) To install the dependency packages.
    
@@ -48,7 +48,7 @@ The above installation may take some time, please be patient and wait. Once the 
 
       library("Fast3VmrMLM")
       Fast3VmrMLM(***)	(please see the example in Instruction 2.0.pdf)
-
+      
 
 The Fast3VmrMLM method combines multiple statistical and computational techniques with the 3VmrMLM method to significantly optimize computation speed and memory consumption. Large-scale genetic analysis can be performed on small servers. This study develops a novel method to large-scale gene mining and breeding by design for polygenic traits, including human diseases and crop yield. Both simulation studies and real-data analysis demonstrated that 3VmrMLM and Fast3VmrMLM outperform most GWAS methods in terms of statistical power and false-positive rate.
 
