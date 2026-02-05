@@ -57,6 +57,7 @@ Most types of genetic population can be used in the Fast3VmrMLM software for GWA
 The types of markers include SNPs, bin haplotypes, gene haplotypes, lncRNA types and structural variations.
 
 Reference
+
 Wang JT#, Chen Y#, Shu GP#, Zhao MM#, Zheng A, Chang XY, Li GQ, Wang YB, Zhang YM*. Fast3VmrMLM: A fast algorithm that integrates genome-wide scanning with machine learning to accelerate gene mining and breeding by design for polygenic traits in large-scale GWAS datasets. Plant Communications 2025; 6(7): 101385 (https://www.cell.com/plant-communications/fulltext/S2590-3462(25)00147-6).
 
 Wang JT#, Han XL#, Zhao MM, Zhang HQ, Chen Y, Jiang QY and Zhang YM*. A fast method for breeding by design via G×E interactions detected in large-scale climatic, phenomic and genomic data. National Science Review 2026; in press.
