@@ -12,7 +12,7 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
 
       conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
    
-4) To install the dependency packages.
+3) To install the dependency packages.
    
   •	Install mamba for fast installation by:
   
