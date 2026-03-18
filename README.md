@@ -1,4 +1,4 @@
-A fast, efficient, big-data and small memory software to detect QTNs and QTN-by-environment interactions. This software was updated on Feb 5 2026. 
+A fast, efficient, big-data and small memory software to detect QTNs and QTN-by-environment interactions. The software packages (x86 and arm architectures of Linux system) were updated on March 18 2026. 
 
 When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01.
 
