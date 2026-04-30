@@ -9,6 +9,7 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
 2) To create a new conda environment named Fast3VmrMLM and install R version 4.3 by the following code.
 
  •	create a new conda environment named Fast3VmrMLM and install R v4.3:
+ 
       conda create -n "Fast3VmrMLM" r-essentials r-base=4.3
       conda activate Fast3VmrMLM
 
@@ -31,6 +32,7 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
       install.packages("Fast3VmrMLM", repos = NULL)
 
 The above installation may take some time, please be patient and wait. Once the software Fast3VmrMLM is installed, users may run it using two commands:
+
       library("Fast3VmrMLM")
       Fast3VmrMLM(***)	(please see the example in Instruction 2.0.pdf)
 
@@ -41,5 +43,7 @@ Most types of genetic population can be used in the Fast3VmrMLM software for GWA
 The types of markers include SNPs, bin haplotypes, gene haplotypes, lncRNA types and structural variations.
 
 References
-Wang JT#, Chen Y#, Shu GP#, Zhao MM#, Zheng A, Chang XY, Li GQ, Wang YB, Zhang YM*. Fast3VmrMLM: A fast algorithm that integrates genome-wide scanning with machine learning to accelerate gene mining and breeding by design for polygenic traits in large-scale GWAS datasets. Plant Communications 2025; 6(7): 101385 (https://doi.org/10.1016/j.xplc.2025.101385 ).
+
+Wang JT#, Chen Y#, Shu GP#, Zhao MM#, Zheng A, Chang XY, Li GQ, Wang YB, Zhang YM*. Fast3VmrMLM: A fast algorithm that integrates genome-wide scanning with machine learning to accelerate gene mining and breeding by design for polygenic traits in large-scale GWAS datasets. Plant Communications 2025; 6(7): 101385 (https://doi.org/10.1016/j.xplc.2025.101385).
+
 Wang JT#, Han XL#, Zhao MM, Zhang HQ, Chen Y, Jiang QY and Zhang YM*. A fast method for breeding by design via G×E interactions detected in large-scale climatic, phenomic and genomic data. National Science Review 2026, 13, nwag095, online (https://doi.org/10.1093/nsr/nwag095).
