@@ -2,6 +2,8 @@ A fast, efficient, big-data and small memory software to detect QTNs and QTN-by-
 
 When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01 (for example, svpal = 0.05 or 0.01 for a population size of less than 4,000, and svpal = 1e–5 for a population size of more than 20,000).
 
+To create a Manhattan plot, please set the parameter, DrawPlot=TRUE. This will output a Manhattan plot for each trait. Alternatively, users can draw the plot using the Fast3VmrMLM_manplot() function, as detailed in §4.1 in Instruction 2.0.
+
 Within the Linux system, the Fast3VmrMLM software can be installed by the following four steps:
 
 1) To download and install Miniconda3 at https://repo.anaconda.com/miniconda/, in which the recommended installer file is Miniconda3-py38_23.11.0-2-Linux-x86_64.
