@@ -1,4 +1,4 @@
-A fast, efficient, big-data and small memory software to detect QTNs and QTN-by-environment interactions. The software packages (x86 and arm architectures of Linux system) were updated on April 30 2026.
+A fast, efficient, big-data and small memory software to detect QTNs and QTN-by-environment interactions. The software packages (x86 and arm architectures of Linux system) were updated on April 30 2026 (Instruction 2.0 was updated on June 2 2026).
 
 When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01 (for example, svpal = 0.05 or 0.01 for a population size of less than 4,000, and svpal = 1e–5 for a population size of more than 20,000).
 
