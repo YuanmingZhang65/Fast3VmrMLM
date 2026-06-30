@@ -48,4 +48,4 @@ References
 
 Wang JT#, Chen Y#, Shu GP#, Zhao MM#, Zheng A, Chang XY, Li GQ, Wang YB, Zhang YM*. Fast3VmrMLM: A fast algorithm that integrates genome-wide scanning with machine learning to accelerate gene mining and breeding by design for polygenic traits in large-scale GWAS datasets. Plant Communications 2025; 6(7): 101385 (https://doi.org/10.1016/j.xplc.2025.101385).
 
-Wang JT#, Han XL#, Zhao MM, Zhang HQ, Chen Y, Jiang QY and Zhang YM*. A fast method for breeding by design via G×E interactions detected in large-scale climatic, phenomic and genomic data. National Science Review 2026, 13, nwag095, online (https://doi.org/10.1093/nsr/nwag095).
+Wang JT#, Han XL#, Zhao MM, Zhang HQ, Chen Y, Jiang QY and Zhang YM*. A fast method for breeding by design via G × E interactions detected in large-scale climatic, phenomic and genomic data. National Science Review 2026, 13(10), nwag095 (https://doi.org/10.1093/nsr/nwag095).
