@@ -1,8 +1,8 @@
-A fast, efficient, big-data and small memory software to detect QTNs and QTN-by-environment interactions. The software packages (x86 and arm architectures of the Windows and Linux systems) were updated on April 30 2026 (Instruction 2.0 was updated on June 30 2026).
+A fast, efficient, big-data and small memory software to detect QTNs, QTN-by-environment interactions (QEIs) and QTN-by-QTN interactions (QQIs). The software packages (x86 and arm architectures of the Windows and Linux systems) were updated on Oct 07 2026 (Instruction 3.0).
 
 When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01 (for example, svpal = 0.05 or 0.01 for a population size of less than 4,000, and svpal = 1e–5 for a population size of more than 20,000).
 
-To create a Manhattan plot, please set the parameter, DrawPlot=TRUE. This will output a Manhattan plot for each trait. Alternatively, users can draw the plot using the Fast3VmrMLM_manplot() function, as detailed in §4.1 in Instruction 2.0.
+To create a Manhattan plot, please set the parameter, DrawPlot=TRUE. This will output a Manhattan plot for each trait. Alternatively, users can draw the plot using the Fast3VmrMLM_manplot() function, as detailed in §4.1 in Instruction 3.0.
 
 Within the Linux system, the Fast3VmrMLM software can be installed by the following four steps:
 
@@ -19,7 +19,7 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
 
   •	Install dependency packages by following codes in Linux environment (or by install.packages in R environment):
 
-      conda install -c conda-forge r-Rcpp=1.1.0 r-RcppArmadillo=15.0.2_1 r-data.table=1.15.2 r-RcppParallel=5.1.9 r-MASS=7.3_60.0.1 r-openxlsx=4.2.8 r-BH=1.87.0_1
+      conda install -c conda-forge r-Rcpp=1.1.0 r-RcppArmadillo=15.0.2_1 r-data.table=1.15.2 r-RcppParallel=5.1.9 r-MASS=7.3_60.0.1 r-openxlsx=4.2.8 r-BH=1.87.0_1 r-BEDMatrix=2.0.4 r-pgenlibr=0.5.3
 
 4) Downloading Fast3VmrMLM from Github and installing it:
 
@@ -30,13 +30,13 @@ Within the Linux system, the Fast3VmrMLM software can be installed by the follow
  •   Installing Fast3VmrMLM in R environment (R version 4.3):
 
       unzip("Fast3VmrMLM-main.zip")
-      unzip("Fast3VmrMLM-main/Fast3VmrMLM_Linux_2.0.zip")
+      unzip("Fast3VmrMLM-main/Fast3VmrMLM_Linux_3.0.zip")
       install.packages("Fast3VmrMLM", repos = NULL)
 
 The above installation may take some time, please be patient and wait. Once the software Fast3VmrMLM is installed, users may run it using two commands:
 
       library("Fast3VmrMLM")
-      Fast3VmrMLM(***)	(please see the example in Instruction 2.0.pdf)
+      Fast3VmrMLM(***)	(please see the example in Instruction 3.0.pdf)
 
 The Fast3VmrMLM method combines multiple statistical and computational techniques with the 3VmrMLM method to significantly optimize computation speed and memory consumption. Large-scale genetic analysis can be performed on small servers. This study develops a novel method tolarge-scale gene mining and breeding by design for polygenic traits, including human diseases and crop yield. Both simulation studies and real-data analysis demonstrated that 3VmrMLM and Fast3VmrMLM outperform most GWAS methods in terms of statistical power and false-positive rate.
 
@@ -49,3 +49,5 @@ References
 Wang JT#, Chen Y#, Shu GP#, Zhao MM#, Zheng A, Chang XY, Li GQ, Wang YB, Zhang YM*. Fast3VmrMLM: A fast algorithm that integrates genome-wide scanning with machine learning to accelerate gene mining and breeding by design for polygenic traits in large-scale GWAS datasets. Plant Communications 2025; 6(7): 101385 (https://doi.org/10.1016/j.xplc.2025.101385).
 
 Wang JT#, Han XL#, Zhao MM, Zhang HQ, Chen Y, Jiang QY and Zhang YM*. A fast method for breeding by design via G × E interactions detected in large-scale climatic, phenomic and genomic data. National Science Review 2026, 13(10), nwag095 (https://doi.org/10.1093/nsr/nwag095).
+
+Wang JT#, Zhao MM#, Han XL#, Chang XY, Ma XS, Jiang QY, Zhang YM*. Fast3VmrMLM enables statistically powerful and computationally efficient large-scale marker-pair epistasis GWAS in sizable populations. Plant Communications 2026, Provisional Accept.
