@@ -1,4 +1,4 @@
-A fast, efficient, big-data and small memory software to detect QTNs, QTN-by-environment interactions (QEIs) and QTN-by-QTN interactions (QQIs). The software packages (x86 and arm architectures of the Windows and Linux systems) were updated on Oct 07 2026 (Instruction 3.0).
+A fast, efficient, big-data and small memory software to detect QTNs, QTN-by-environment interactions (QEIs) and QTN-by-QTN interactions (QQIs). The software packages (x86 and arm architectures of the Windows and Linux systems) were updated on Oct 21 2026 (Instruction 3.0).
 
 When the population size is less than 1,000, the probability threshold in the first stage should be set to 0.01 or 0.05. As the population size increases, this threshold in the first stage may be set to a value below 0.01 (for example, svpal = 0.05 or 0.01 for a population size of less than 4,000, and svpal = 1e–5 for a population size of more than 20,000).
 
@@ -50,4 +50,4 @@ Wang JT#, Chen Y#, Shu GP#, Zhao MM#, Zheng A, Chang XY, Li GQ, Wang YB, Zhang Y
 
 Wang JT#, Han XL#, Zhao MM, Zhang HQ, Chen Y, Jiang QY and Zhang YM*. A fast method for breeding by design via G × E interactions detected in large-scale climatic, phenomic and genomic data. National Science Review 2026, 13(10), nwag095 (https://doi.org/10.1093/nsr/nwag095).
 
-Wang JT#, Zhao MM#, Han XL#, Chang XY, Ma XS, Jiang QY, Zhang YM*. Fast3VmrMLM enables statistically powerful and computationally efficient large-scale marker-pair epistasis GWAS in sizable populations. Plant Communications 2026, Provisional Accept.
+Wang JT#, Zhao MM#, Han XL#, Chang XY, Ma XS, Jiang QY, Zhang YM*. Fast3VmrMLM enables statistically powerful and computationally efficient large-scale marker-pair epistasis GWAS in sizable populations. Plant Communications October 14, 2026, online, DOI: 10.1016/j.xplc.2026.102155.
